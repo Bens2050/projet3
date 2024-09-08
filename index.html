@@ -1,6 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
+   <meta name="description" content="Portfolio de Slama Ridha, développeur web spécialisé dans la création de sites performants et l'optimisation SEO. Découvrez mes projets et compétences en développement front-end et référencement de sites web pour améliorer la visibilité en ligne." />
+
+   <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "portfolio",
+      "name": "Slama ridha",
+      "url": "http://127.0.0.1:5500/index.html",
+     
+      "description": Portfolio de Slama Ridha, développeur front-end freelance et expert en optimisation SEO. Découvrez mes projets et compétences en développement web, design responsive, et optimisation des performances pour un meilleur référencement. Contactez-moi pour des services personnalisés.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 allee gottingen",
+        "addressLocality": "paris",
+        "postalCode": "91460",
+        "addressCountry": "FR"
+      },
+      "telephone": "+33 6 80 14 02 69",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "http://schema.org/Monday",
+          "http://schema.org/Tuesday",
+          "http://schema.org/Wednesday",
+          "http://schema.org/Thursday",
+          "http://schema.org/Friday"
+        ],
+        "opens": "10:00",
+        "closes": "19:00"
+      },
+   
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+33 6 80 14 02 69",
+        "contactType": "developpeur web",
+        "areaServed": "FR",
+        "availableLanguage": "French"
+      }
+    }
+    </script> 
 
     <!-- Basic Page Needs
     ================================================== -->
@@ -15,7 +55,8 @@
 
     <!-- Mobile Specific Metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
     <!-- Fonts -->
@@ -34,6 +75,9 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- Font Awesome for social icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -62,6 +106,13 @@
                 <div class="main-menu" id="portfolio-perfect-collapse">
 
                     <ul class="nav navbar-nav navbar-right">
+                       
+						<li><a href="#"><i class="fab fa-twitter" aria-label="Twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/slamaridha1986" target="_blank" aria-label="facebook">
+                            <i class="fab fa-facebook"></i> </a> </li>
+
+                        <li><a href="https://www.linkedin.com/in/ridha-slama-58900b300/" target="_blank" aria-label="linkedin">
+                             <i class="fab fa-linkedin"></i> </a> </li>
 
                         <li class="page-scroll"><a href="#hero">Accueil</a></li>
                         <li class="page-scroll"><a href="#about">A propos</a></li>
@@ -125,13 +176,13 @@
                         <div class="skill">
                             <h4>Html/css</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="50"></div><!-- /.progress-bar -->
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="50" aria-label="Progression à 50%"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
                         <div class="skill">
                             <h4>Python</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div><!-- /.progress-bar -->
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="75" aria-label="Progression à 75%"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
                     </div>
@@ -139,13 +190,13 @@
                         <div class="skill">
                             <h4>SEO</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="95"></div><!-- /.progress-bar -->
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="95" aria-label="Progression à 95%"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
                         <div class="skill">
                             <h4>Bureatique</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="90"></div><!-- /.progress-bar -->
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="90" aria-label="Progression à 90%"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
                     </div>
@@ -153,13 +204,13 @@
                         <div class="skill">
                             <h4>React</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="35"></div><!-- /.progress-bar -->
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="35" aria-label="Progression à 35%"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
                         <div class="skill">
                             <h4>Java</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="45"></div><!-- /.progress-bar -->
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="45" aria-label="Progression à 45%"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
                     </div>
@@ -268,18 +319,29 @@
                 <form>
                     <div class="row">
                         <div class="col-sm-6">
-                            <input type="text" name="name" class="form-control mt-x-0" placeholder="Nom" required>
+                           <div class="form-group">
+                               <label for="name"></label>
+                               <input type="text" name="name" id="name" class="form-control mt-x-0" placeholder="Nom" required>
+                            </div>
+
                         </div>
                         <div class="col-sm-6">
-                            <input type="email" name="email" class="form-control" placeholder="Email" required>   
+                             <label for="email"></label>
+                             <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>  
                         </div>
                         <div class="col-sm-12">
-                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
+                           <div class="form-group">
+                              <label for="message"></label>
+                              <textarea name="message" id="message" class="form-control" placeholder="Message" required></textarea>
+                            </div>
+
+                           
                         </div>
                     </div>
                     <button href="#" class="btn btn-border" type="submit">Envoyer <span class="glyphicon glyphicon-send"></span></button>
                 </form>
             </div>
+             
         </section><!-- /.section-form -->
 
     </main><!-- /#main -->
@@ -287,12 +349,7 @@
     <footer id="colophon" class="site-footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 col-xs-12">
-                    <a class="icon facebook-bg" href="#"><i class="icon-facebook"></i></a>
-                    <a class="icon twitter-bg" href="#"><i class="icon-twitter"></i></a>
-                    <a class="icon gplus-bg" href="#"><i class="icon-linkedin"></i></a>
-                    <a class="icon linkedin-bg" href="#"><i class="icon-gplus"></i></a>
-                </div>
+               
                 <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">2017. All Rights Reserved</p></div>
                 <div class="col-sm-4 col-xs-3">
                     <div class="text-right page-scroll">
@@ -369,6 +426,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
     <script src="assets/js/jquery.countTo.min.js"></script>
     <script src="assets/js/script.js"></script>
-  
+    
 </body>
 </html>
